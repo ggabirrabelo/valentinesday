@@ -1,28 +1,114 @@
+
+body {
+  overflow: hidden; 
+  font-family: 'Roboto', sans-serif;
+}
+
+*{margin: 0; padding: 0;}
+
+.show{
+  display: block !important;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+  min-height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-header-2 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  max-height: 100%; 
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image:linear-gradient(to top, rgba(1, 1, 1, 1) 0, rgba(0, 0, 0, 0) 280%, rgba(1, 1, 1, 1) 100%), url("./assets/fundo.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 50px;
 }
+
+.topbar {
+  background-color: #141414;
+  height: 68px;
+  z-index: 2;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  padding: 0 4%;
+  position: relative;
+  transition: background-color .4s;
+  color: white;
+  top: 0;
+}
+
+.topbar img {
+  width: 90px;
+}
+
+.capa {
+  bottom: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 4%;
+  top: 0;
+  width: 36%;
+  z-index: 10;
+}
+
+.capa img {
+  width: 300px;
+}
+
+.capa .text {
+  font-size: 14px;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slides img{
+  width: 135px;
+  margin: 10px;
+  object-fit: cover;
+  object-position: center;
+  height: 190px;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.slides img:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  
+}
+
+ul { 
+  list-style:none;
+  display: flex
+}
+
+
+li a{color:#E5E5E5; text-decoration:none; padding:5px 10px; display:block;}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +121,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 600px)
+{
+  body {
+    overflow:auto;
+  }
+  .App-header-2
+   {
+    height: 100%;
+    max-height: 100%; 
+    min-height: 100%;
+    padding: 0;
+   }
+   .conteudo {
+    flex-wrap: wrap;
+   } 
+
+   .conteudo .text {
+    margin: 20px
+   }
+
+   .capa img {
+    margin: 20px;
+   }
+
+   .capa {
+    width: 100%;
+   }
+   .slides {
+    flex-wrap: wrap;
+   }
+
+   .capa .text {
+    margin: 20px;
+   }
+   .modal {
+    width: auto;
+    left: auto;
+    position: fixed;
+    height: 100%;
+    border-radius: 0px;
+    top: 0%
+   }
 }
