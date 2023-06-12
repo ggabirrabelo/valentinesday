@@ -43,17 +43,17 @@ function App() {
       </div>
       <ul>
         <li >
-          <a role="button" aria-haspopup="true" href="/">Navegar</a>
+          <a role="button" aria-haspopup="true" href="/valentinesday/">Navegar</a>
         </li>
         <li >
-            <a href="/">Eu</a>
+            <a href="/valentinesday/">Eu</a>
         </li>
         <li >
-          <a href="/">Amo</a>
+          <a href="/valentinesday/">Amo</a>
         </li>
         
         <li >
-          <a href="/">Você</a>
+          <a href="/valentinesday/">Você</a>
         </li>
       </ul>
 
