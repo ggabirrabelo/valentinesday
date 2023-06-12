@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/valentinesday/static/css/main.a04ac3ba.css",
-    "main.js": "/valentinesday/static/js/main.b217cef7.js",
+    "main.css": "/valentinesday/static/css/main.1b990ba9.css",
+    "main.js": "/valentinesday/static/js/main.3e0df5ba.js",
     "static/js/787.b2e0dfaf.chunk.js": "/valentinesday/static/js/787.b2e0dfaf.chunk.js",
     "static/media/fundo.jpg": "/valentinesday/static/media/fundo.b7141d3ce8790d5418f7.jpg",
     "static/media/3.JPG": "/valentinesday/static/media/3.f25d6152d3519228d2d2.JPG",
@@ -13,12 +13,12 @@
     "static/media/1.JPG": "/valentinesday/static/media/1.dac572da60ca9651fe03.JPG",
     "static/media/logo.png": "/valentinesday/static/media/logo.774e8c1632ac9433608b.png",
     "index.html": "/valentinesday/index.html",
-    "main.a04ac3ba.css.map": "/valentinesday/static/css/main.a04ac3ba.css.map",
-    "main.b217cef7.js.map": "/valentinesday/static/js/main.b217cef7.js.map",
+    "main.1b990ba9.css.map": "/valentinesday/static/css/main.1b990ba9.css.map",
+    "main.3e0df5ba.js.map": "/valentinesday/static/js/main.3e0df5ba.js.map",
     "787.b2e0dfaf.chunk.js.map": "/valentinesday/static/js/787.b2e0dfaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a04ac3ba.css",
-    "static/js/main.b217cef7.js"
+    "static/css/main.1b990ba9.css",
+    "static/js/main.3e0df5ba.js"
   ]
 }
