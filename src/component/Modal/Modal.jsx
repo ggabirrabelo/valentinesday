@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Modal.css";
 
 const Modal = ({open, modalRef, close, text, more}) => {
@@ -6,7 +6,7 @@ const Modal = ({open, modalRef, close, text, more}) => {
     const [estilonao, setEstiloNao] = useState('')
 
     const nao = () => {
-        alert("Tenta de novo, se conseguir na próxima então eu aceito sua decisão");
+        alert("Tenta de novo, se conseguir então eu aceito sua decisão");
         setEstiloNao('estilonao')
     }
 
